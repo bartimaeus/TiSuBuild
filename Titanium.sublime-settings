@@ -1,0 +1,5 @@
+{
+	"titaniumCLI": "/usr/local/bin/titanium",
+	"loggingLevel": "info",
+	"androidSDK": "/opt/android-sdk"
+}
