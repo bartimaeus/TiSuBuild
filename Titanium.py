@@ -149,13 +149,13 @@ class TitaniumCommand(sublime_plugin.WindowCommand):
         if select < 0:
             return
         if (self.simtype[select] == 'iPhone 4 with iOS 6'):
-            options = ['-Y', 'iphone', '-S', '6.0']
+            options = ['-Y', 'iphone', '-S', '6.1']
         elif (self.simtype[select] == 'iPhone 4S with iOS 6'):
-            options = ['-Y', 'iphone', '-S', '6.0', '--retina']
+            options = ['-Y', 'iphone', '-S', '6.1', '--retina']
         elif (self.simtype[select] == 'iPhone 4S with iOS 7'):
             options = ['-Y', 'iphone', '-S', '7.0', '--retina']
         elif (self.simtype[select] == 'iPhone 5 with iOS 6'):
-            options = ['-Y', 'iphone', '-S', '6.0', '--retina', '--tall']
+            options = ['-Y', 'iphone', '-S', '6.1', '--retina', '--tall']
         elif (self.simtype[select] == 'iPhone 5 with iOS 7'):
             options = ['-Y', 'iphone', '-S', '7.0', '--retina', '--tall']
         elif (self.simtype[select] == 'iPhone 5S 64bit'):
